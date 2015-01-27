@@ -1,0 +1,23 @@
+{
+  "name": "openterrain-map",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "interp": "^0.1.0",
+    "js-yaml": "^3.2.5",
+    "mapnik": "^3.1.4",
+    "tessera": "^0.5.1",
+    "tilelive": "^5.5.4",
+    "tilelive-blend": "git+https://github.com/mojodna/tilelive-blend",
+    "tilelive-http": "^0.5.0",
+    "tilelive-mapnik": "^0.6.14",
+    "tilelive-solid": "^0.1.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "make xml && tessera -c tessera.json"
+  },
+  "author": "",
+  "license": "ISC"
+}

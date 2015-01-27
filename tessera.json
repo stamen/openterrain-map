@@ -1,0 +1,55 @@
+{
+  "/": {
+    "source": "mapnik://./project.xml"
+  },
+  "/positron": {
+    "source": {
+      "protocol": "blend:",
+      "query": {
+        "layers": [
+          {
+            "protocol": "blend:",
+            "query": {
+              "layers": [
+                {
+                  "source": "mapnik://./project.xml"
+                },
+                {
+                  "source": "solid:#fff",
+                  "opacity": 0.6
+                },
+                {
+                  "source": "solid:#fff",
+                  "opacity": 0.35,
+                  "comp-op": "saturation"
+                }
+              ]
+            }
+          },
+          {
+            "source": "http://a.basemaps.cartocdn.com/light_nolabels/{z}/{x}/{y}.png",
+            "comp-op": "multiply"
+          }
+        ],
+        "format": "png8"
+      }
+    }
+  },
+  "/darkmatter": {
+    "source": {
+      "protocol": "blend:",
+      "query": {
+        "layers": [
+          {
+            "source": "http://a.basemaps.cartocdn.com/dark_nolabels/{z}/{x}/{y}.png"
+          },
+          {
+            "source": "mapnik://./project.xml",
+            "comp-op": "multiply"
+          }
+        ],
+        "format": "png8"
+      }
+    }
+  }
+}
