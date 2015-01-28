@@ -16,7 +16,7 @@
   },
   "devDependencies": {},
   "scripts": {
-    "start": "make xml && tessera -c tessera.json"
+    "start": "make xml && tessera -S 50 -c tessera.json"
   },
   "author": "",
   "license": "ISC"
