@@ -34,5 +34,8 @@ Layer:
     extent: [-179.9999993623526, -60.00005655617617, 179.9983250186893, 60.00041727199608]
     properties:
       minzoom: 8
+    advanced:
+      band: "1"
     Datasource:
       file: SRTM-hillshade-3857-local.vrt
+      band: "1"
