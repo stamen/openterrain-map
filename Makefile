@@ -1,8 +1,6 @@
 export PATH := $(PATH):node_modules/.bin:bin
 
-default: project.mml
-
-xml: project.xml
+default: darkmatter-terrain
 
 # symlink into TileMill's project folder (if TM is installed)
 link:
@@ -16,6 +14,13 @@ clean:
 	@rm -f *.mml *.xml
 
 .PRECIOUS: %.mml %.xml
+
+%: %.mml
+	@cp $< project.mml
+
+mml: $(subst .yml,.mml,$(filter-out circle.yml,$(wildcard *.yml)))
+
+xml: $(subst .yml,.xml,$(filter-out circle.yml,$(wildcard *.yml)))
 
 %.mml: %.yml *.mss interp js-yaml
 	@cat $< | interp | js-yaml > tmp.mml && mv tmp.mml $@
