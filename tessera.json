@@ -14,7 +14,7 @@
             "source": "solid:#eff"
           },
           {
-            "source": "http://1.ashbu.cartocdn.com/digitalscholarshiplab/api/v1/map/digitalscholarshiplab@e16adf6a@2bbb06885feefdece0d8ff74359c6899:1425347474365.71/{z}/{x}/{y}.png"
+            "source": "http://1.ashbu.cartocdn.com/digitalscholarshiplab/api/v1/map/digitalscholarshiplab@2390c366@df2ddb676bbb6dd430f75f48cd10bca3:1425347474365.71/{z}/{x}/{y}.png"
           },
           {
             "source": "mapnik://./richmond-terrain.xml",
