@@ -2,6 +2,29 @@
   "/": {
     "source": "mapnik://./project.xml"
   },
+  "/richmond-terrain": {
+    "source": "mapnik://./richmond-terrain.xml"
+  },
+  "/richmond": {
+    "source": {
+      "protocol": "blend:",
+      "query": {
+        "layers": [
+          {
+            "source": "solid:#eff"
+          },
+          {
+            "source": "http://1.ashbu.cartocdn.com/digitalscholarshiplab/api/v1/map/digitalscholarshiplab@e16adf6a@2bbb06885feefdece0d8ff74359c6899:1425347474365.71/{z}/{x}/{y}.png"
+          },
+          {
+            "source": "mapnik://./richmond-terrain.xml",
+            "comp-op": "hard-light"
+          }
+        ],
+        "format": "png8"
+      }
+    }
+  },
   "/positron-terrain": {
     "source": "mapnik://./positron-terrain.xml"
   },
