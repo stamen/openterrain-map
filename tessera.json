@@ -2,6 +2,23 @@
   "/": {
     "source": "mapnik://./project.xml"
   },
+  "/humanitarian": {
+    "source": {
+      "protocol": "blend:",
+      "query": {
+        "layers": [
+          {
+            "source": "http://c.tile.openstreetmap.fr/hot/{z}/{x}/{y}.png"
+          },
+          {
+            "source": "mapnik://./positron-terrain.xml",
+            "comp-op": "hard-light"
+          }
+        ],
+        "format": "png8"
+      }
+    }
+  },
   "/richmond-terrain": {
     "source": "mapnik://./richmond-terrain.xml"
   },
@@ -11,10 +28,10 @@
       "query": {
         "layers": [
           {
-            "source": "solid:#eff"
+            "source": "solid:#dee"
           },
           {
-            "source": "http://1.ashbu.cartocdn.com/digitalscholarshiplab/api/v1/map/digitalscholarshiplab@2390c366@df2ddb676bbb6dd430f75f48cd10bca3:1425347474365.71/{z}/{x}/{y}.png"
+            "source": "https://cartocdn-ashbu.global.ssl.fastly.net/digitalscholarshiplab/api/v1/map/digitalscholarshiplab@014fe45c@55c025ea635f46e0e781a79ba4f03ba5:1427930888546.53/{z}/{x}/{y}.png"
           },
           {
             "source": "mapnik://./richmond-terrain.xml",
