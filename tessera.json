@@ -11,7 +11,7 @@
             "source": "http://c.tile.openstreetmap.fr/hot/{z}/{x}/{y}.png"
           },
           {
-            "source": "mapnik://./positron-terrain.xml",
+            "source": "mapnik://./positron-terrain-nepal.xml",
             "comp-op": "hard-light"
           }
         ],
@@ -45,6 +45,9 @@
   "/positron-terrain": {
     "source": "mapnik://./positron-terrain.xml"
   },
+  "/positron-terrain-nepal": {
+    "source": "mapnik://./positron-terrain-nepal.xml"
+  },
   "/darkmatter-terrain": {
     "source": "mapnik://./darkmatter-terrain.xml"
   },
@@ -58,6 +61,23 @@
           },
           {
             "source": "mapnik://./positron-terrain.xml",
+            "comp-op": "hard-light"
+          }
+        ],
+        "format": "png8"
+      }
+    }
+  },
+  "/positron-nepal": {
+    "source": {
+      "protocol": "blend:",
+      "query": {
+        "layers": [
+          {
+            "source": "http://a.basemaps.cartocdn.com/light_nolabels/{z}/{x}/{y}.png"
+          },
+          {
+            "source": "mapnik://./positron-terrain-nepal.xml",
             "comp-op": "hard-light"
           }
         ],
