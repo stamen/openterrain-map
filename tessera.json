@@ -22,6 +22,23 @@
   "/richmond-terrain": {
     "source": "mapnik://./richmond-terrain.xml"
   },
+  "/richmond-white": {
+    "source": {
+      "protocol": "blend:",
+      "query": {
+        "layers": [
+          {
+            "source": "solid:#fff"
+          },
+          {
+            "source": "mapnik://./richmond-terrain.xml",
+            "comp-op": "hard-light"
+          }
+        ],
+        "format": "png8"
+      }
+    }
+  },
   "/richmond": {
     "source": {
       "protocol": "blend:",
