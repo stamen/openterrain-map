@@ -28,16 +28,46 @@ Stylesheet:
 Layer:
 
   - <<: *layer
-    name: hillshade
-    id:   hillshade
+    name: hillshade7
+    id:   hillshade7
     class:   hillshade_positron
     geometry: raster
     extent: [-179.9999993623526, -60.00005655617617, 179.9983250186893, 60.00041727199608]
     properties:
-      minzoom: 3
+      minzoom: 7
       maxzoom: 12
     advanced:
       band: "1"
     Datasource:
       file: SRTM-hillshade-2163-z7-local.vrt
+      band: "1"
+
+  - <<: *layer
+    name: hillshade6
+    id:   hillshade6
+    class:   hillshade_positron
+    geometry: raster
+    extent: [-179.9999993623526, -60.00005655617617, 179.9983250186893, 60.00041727199608]
+    properties:
+      minzoom: 6
+      maxzoom: 6
+    advanced:
+      band: "1"
+    Datasource:
+      file: SRTM-hillshade-2163-z6-local.vrt
+      band: "1"
+
+  - <<: *layer
+    name: hillshade5
+    id:   hillshade5
+    class:   hillshade_positron
+    geometry: raster
+    extent: [-179.9999993623526, -60.00005655617617, 179.9983250186893, 60.00041727199608]
+    properties:
+      minzoom: 3
+      maxzoom: 5
+    advanced:
+      band: "1"
+    Datasource:
+      file: SRTM-hillshade-2163-z5-local.vrt
       band: "1"

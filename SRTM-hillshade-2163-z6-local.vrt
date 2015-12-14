@@ -1,0 +1,2056 @@
+<VRTDataset rasterXSize="16384" rasterYSize="16384">
+  <SRS>PROJCS["US National Atlas Equal Area",GEOGCS["Unspecified datum based upon the Clarke 1866 Authalic Sphere",DATUM["Not_specified_based_on_Clarke_1866_Authalic_Sphere",SPHEROID["Clarke 1866 Authalic Sphere",6370997,0,AUTHORITY["EPSG","7052"]],AUTHORITY["EPSG","6052"]],PRIMEM["Greenwich",0],UNIT["degree",0.0174532925199433],AUTHORITY["EPSG","4052"]],PROJECTION["Lambert_Azimuthal_Equal_Area"],PARAMETER["latitude_of_center",45],PARAMETER["longitude_of_center",-100],PARAMETER["false_easting",0],PARAMETER["false_northing",0],UNIT["metre",1,AUTHORITY["EPSG","9001"]],AUTHORITY["EPSG","2163"]]</SRS>
+  <GeoTransform> -2.0037508342789244e+07,  2.4459849051256433e+03,  0.0000000000000000e+00,  2.0037508342789244e+07,  0.0000000000000000e+00, -2.4459849051256433e+03</GeoTransform>
+  <VRTRasterBand dataType="Byte" band="1">
+    <NoDataValue>0.00000000000000E+00</NoDataValue>
+    <ColorInterp>Gray</ColorInterp>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">srtm/2163hillshade/z6/0/0.tiff</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1025" RasterYSize="1025" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="1025" ySize="1025" />
+      <DstRect xOff="0" yOff="0" xSize="1025" ySize="1025" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">srtm/2163hillshade/z6/0/1.tiff</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1025" RasterYSize="1027" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="1025" ySize="1027" />
+      <DstRect xOff="0" yOff="1022" xSize="1025" ySize="1027" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">srtm/2163hillshade/z6/0/10.tiff</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1025" RasterYSize="1026" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="1025" ySize="1026" />
+      <DstRect xOff="0" yOff="10239" xSize="1025" ySize="1026" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">srtm/2163hillshade/z6/0/11.tiff</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1025" RasterYSize="1026" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="1025" ySize="1026" />
+      <DstRect xOff="0" yOff="11263" xSize="1025" ySize="1026" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">srtm/2163hillshade/z6/0/12.tiff</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1025" RasterYSize="1026" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="1025" ySize="1026" />
+      <DstRect xOff="0" yOff="12287" xSize="1025" ySize="1026" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">srtm/2163hillshade/z6/0/13.tiff</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1025" RasterYSize="1026" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="1025" ySize="1026" />
+      <DstRect xOff="0" yOff="13311" xSize="1025" ySize="1026" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">srtm/2163hillshade/z6/0/14.tiff</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1025" RasterYSize="1027" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="1025" ySize="1027" />
+      <DstRect xOff="0" yOff="14335" xSize="1025" ySize="1027" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">srtm/2163hillshade/z6/0/15.tiff</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1025" RasterYSize="1025" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="1025" ySize="1025" />
+      <DstRect xOff="0" yOff="15359" xSize="1025" ySize="1025" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">srtm/2163hillshade/z6/0/2.tiff</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1025" RasterYSize="1027" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="1025" ySize="1027" />
+      <DstRect xOff="0" yOff="2046" xSize="1025" ySize="1027" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">srtm/2163hillshade/z6/0/3.tiff</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1025" RasterYSize="1027" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="1025" ySize="1027" />
+      <DstRect xOff="0" yOff="3071" xSize="1025" ySize="1027" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">srtm/2163hillshade/z6/0/4.tiff</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1025" RasterYSize="1026" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="1025" ySize="1026" />
+      <DstRect xOff="0" yOff="4095" xSize="1025" ySize="1026" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">srtm/2163hillshade/z6/0/5.tiff</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1025" RasterYSize="1026" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="1025" ySize="1026" />
+      <DstRect xOff="0" yOff="5119" xSize="1025" ySize="1026" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">srtm/2163hillshade/z6/0/6.tiff</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1025" RasterYSize="1028" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="1025" ySize="1028" />
+      <DstRect xOff="0" yOff="6142" xSize="1025" ySize="1028" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">srtm/2163hillshade/z6/0/7.tiff</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1025" RasterYSize="1026" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="1025" ySize="1026" />
+      <DstRect xOff="0" yOff="7167" xSize="1025" ySize="1026" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">srtm/2163hillshade/z6/0/8.tiff</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1025" RasterYSize="1026" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="1025" ySize="1026" />
+      <DstRect xOff="0" yOff="8191" xSize="1025" ySize="1026" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">srtm/2163hillshade/z6/0/9.tiff</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1025" RasterYSize="1028" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="1025" ySize="1028" />
+      <DstRect xOff="0" yOff="9214" xSize="1025" ySize="1028" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">srtm/2163hillshade/z6/1/0.tiff</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1027" RasterYSize="1025" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="1027" ySize="1025" />
+      <DstRect xOff="1022" yOff="0" xSize="1027" ySize="1025" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">srtm/2163hillshade/z6/1/1.tiff</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1027" RasterYSize="1027" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="1027" ySize="1027" />
+      <DstRect xOff="1022" yOff="1022" xSize="1027" ySize="1027" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">srtm/2163hillshade/z6/1/10.tiff</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1027" RasterYSize="1026" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="1027" ySize="1026" />
+      <DstRect xOff="1022" yOff="10239" xSize="1027" ySize="1026" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">srtm/2163hillshade/z6/1/11.tiff</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1027" RasterYSize="1026" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="1027" ySize="1026" />
+      <DstRect xOff="1022" yOff="11263" xSize="1027" ySize="1026" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">srtm/2163hillshade/z6/1/12.tiff</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1027" RasterYSize="1026" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="1027" ySize="1026" />
+      <DstRect xOff="1022" yOff="12287" xSize="1027" ySize="1026" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">srtm/2163hillshade/z6/1/13.tiff</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1027" RasterYSize="1026" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="1027" ySize="1026" />
+      <DstRect xOff="1022" yOff="13311" xSize="1027" ySize="1026" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">srtm/2163hillshade/z6/1/14.tiff</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1027" RasterYSize="1027" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="1027" ySize="1027" />
+      <DstRect xOff="1022" yOff="14335" xSize="1027" ySize="1027" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">srtm/2163hillshade/z6/1/15.tiff</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1027" RasterYSize="1025" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="1027" ySize="1025" />
+      <DstRect xOff="1022" yOff="15359" xSize="1027" ySize="1025" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">srtm/2163hillshade/z6/1/2.tiff</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1027" RasterYSize="1027" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="1027" ySize="1027" />
+      <DstRect xOff="1022" yOff="2046" xSize="1027" ySize="1027" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">srtm/2163hillshade/z6/1/3.tiff</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1027" RasterYSize="1027" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="1027" ySize="1027" />
+      <DstRect xOff="1022" yOff="3071" xSize="1027" ySize="1027" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">srtm/2163hillshade/z6/1/4.tiff</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1027" RasterYSize="1026" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="1027" ySize="1026" />
+      <DstRect xOff="1022" yOff="4095" xSize="1027" ySize="1026" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">srtm/2163hillshade/z6/1/5.tiff</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1027" RasterYSize="1026" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="1027" ySize="1026" />
+      <DstRect xOff="1022" yOff="5119" xSize="1027" ySize="1026" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">srtm/2163hillshade/z6/1/6.tiff</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1027" RasterYSize="1028" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="1027" ySize="1028" />
+      <DstRect xOff="1022" yOff="6142" xSize="1027" ySize="1028" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">srtm/2163hillshade/z6/1/7.tiff</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1027" RasterYSize="1026" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="1027" ySize="1026" />
+      <DstRect xOff="1022" yOff="7167" xSize="1027" ySize="1026" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">srtm/2163hillshade/z6/1/8.tiff</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1027" RasterYSize="1026" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="1027" ySize="1026" />
+      <DstRect xOff="1022" yOff="8191" xSize="1027" ySize="1026" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">srtm/2163hillshade/z6/1/9.tiff</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1027" RasterYSize="1028" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="1027" ySize="1028" />
+      <DstRect xOff="1022" yOff="9214" xSize="1027" ySize="1028" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">srtm/2163hillshade/z6/10/0.tiff</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1026" RasterYSize="1025" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="1026" ySize="1025" />
+      <DstRect xOff="10239" yOff="0" xSize="1026" ySize="1025" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">srtm/2163hillshade/z6/10/1.tiff</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1026" RasterYSize="1027" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="1026" ySize="1027" />
+      <DstRect xOff="10239" yOff="1022" xSize="1026" ySize="1027" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">srtm/2163hillshade/z6/10/10.tiff</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1026" RasterYSize="1026" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="1026" ySize="1026" />
+      <DstRect xOff="10239" yOff="10239" xSize="1026" ySize="1026" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">srtm/2163hillshade/z6/10/11.tiff</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1026" RasterYSize="1026" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="1026" ySize="1026" />
+      <DstRect xOff="10239" yOff="11263" xSize="1026" ySize="1026" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">srtm/2163hillshade/z6/10/12.tiff</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1026" RasterYSize="1026" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="1026" ySize="1026" />
+      <DstRect xOff="10239" yOff="12287" xSize="1026" ySize="1026" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">srtm/2163hillshade/z6/10/13.tiff</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1026" RasterYSize="1026" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="1026" ySize="1026" />
+      <DstRect xOff="10239" yOff="13311" xSize="1026" ySize="1026" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">srtm/2163hillshade/z6/10/14.tiff</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1026" RasterYSize="1027" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="1026" ySize="1027" />
+      <DstRect xOff="10239" yOff="14335" xSize="1026" ySize="1027" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">srtm/2163hillshade/z6/10/15.tiff</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1026" RasterYSize="1025" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="1026" ySize="1025" />
+      <DstRect xOff="10239" yOff="15359" xSize="1026" ySize="1025" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">srtm/2163hillshade/z6/10/2.tiff</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1026" RasterYSize="1027" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="1026" ySize="1027" />
+      <DstRect xOff="10239" yOff="2046" xSize="1026" ySize="1027" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">srtm/2163hillshade/z6/10/3.tiff</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1026" RasterYSize="1027" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="1026" ySize="1027" />
+      <DstRect xOff="10239" yOff="3071" xSize="1026" ySize="1027" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">srtm/2163hillshade/z6/10/4.tiff</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1026" RasterYSize="1026" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="1026" ySize="1026" />
+      <DstRect xOff="10239" yOff="4095" xSize="1026" ySize="1026" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">srtm/2163hillshade/z6/10/5.tiff</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1026" RasterYSize="1026" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="1026" ySize="1026" />
+      <DstRect xOff="10239" yOff="5119" xSize="1026" ySize="1026" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">srtm/2163hillshade/z6/10/6.tiff</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1026" RasterYSize="1028" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="1026" ySize="1028" />
+      <DstRect xOff="10239" yOff="6142" xSize="1026" ySize="1028" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">srtm/2163hillshade/z6/10/7.tiff</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1026" RasterYSize="1026" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="1026" ySize="1026" />
+      <DstRect xOff="10239" yOff="7167" xSize="1026" ySize="1026" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">srtm/2163hillshade/z6/10/8.tiff</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1026" RasterYSize="1026" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="1026" ySize="1026" />
+      <DstRect xOff="10239" yOff="8191" xSize="1026" ySize="1026" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">srtm/2163hillshade/z6/10/9.tiff</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1026" RasterYSize="1028" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="1026" ySize="1028" />
+      <DstRect xOff="10239" yOff="9214" xSize="1026" ySize="1028" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">srtm/2163hillshade/z6/11/0.tiff</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1026" RasterYSize="1025" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="1026" ySize="1025" />
+      <DstRect xOff="11263" yOff="0" xSize="1026" ySize="1025" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">srtm/2163hillshade/z6/11/1.tiff</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1026" RasterYSize="1027" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="1026" ySize="1027" />
+      <DstRect xOff="11263" yOff="1022" xSize="1026" ySize="1027" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">srtm/2163hillshade/z6/11/10.tiff</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1026" RasterYSize="1026" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="1026" ySize="1026" />
+      <DstRect xOff="11263" yOff="10239" xSize="1026" ySize="1026" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">srtm/2163hillshade/z6/11/11.tiff</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1026" RasterYSize="1026" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="1026" ySize="1026" />
+      <DstRect xOff="11263" yOff="11263" xSize="1026" ySize="1026" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">srtm/2163hillshade/z6/11/12.tiff</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1026" RasterYSize="1026" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="1026" ySize="1026" />
+      <DstRect xOff="11263" yOff="12287" xSize="1026" ySize="1026" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">srtm/2163hillshade/z6/11/13.tiff</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1026" RasterYSize="1026" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="1026" ySize="1026" />
+      <DstRect xOff="11263" yOff="13311" xSize="1026" ySize="1026" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">srtm/2163hillshade/z6/11/14.tiff</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1026" RasterYSize="1027" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="1026" ySize="1027" />
+      <DstRect xOff="11263" yOff="14335" xSize="1026" ySize="1027" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">srtm/2163hillshade/z6/11/15.tiff</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1026" RasterYSize="1025" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="1026" ySize="1025" />
+      <DstRect xOff="11263" yOff="15359" xSize="1026" ySize="1025" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">srtm/2163hillshade/z6/11/2.tiff</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1026" RasterYSize="1027" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="1026" ySize="1027" />
+      <DstRect xOff="11263" yOff="2046" xSize="1026" ySize="1027" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">srtm/2163hillshade/z6/11/3.tiff</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1026" RasterYSize="1027" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="1026" ySize="1027" />
+      <DstRect xOff="11263" yOff="3071" xSize="1026" ySize="1027" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">srtm/2163hillshade/z6/11/4.tiff</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1026" RasterYSize="1026" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="1026" ySize="1026" />
+      <DstRect xOff="11263" yOff="4095" xSize="1026" ySize="1026" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">srtm/2163hillshade/z6/11/5.tiff</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1026" RasterYSize="1026" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="1026" ySize="1026" />
+      <DstRect xOff="11263" yOff="5119" xSize="1026" ySize="1026" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">srtm/2163hillshade/z6/11/6.tiff</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1026" RasterYSize="1028" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="1026" ySize="1028" />
+      <DstRect xOff="11263" yOff="6142" xSize="1026" ySize="1028" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">srtm/2163hillshade/z6/11/7.tiff</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1026" RasterYSize="1026" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="1026" ySize="1026" />
+      <DstRect xOff="11263" yOff="7167" xSize="1026" ySize="1026" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">srtm/2163hillshade/z6/11/8.tiff</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1026" RasterYSize="1026" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="1026" ySize="1026" />
+      <DstRect xOff="11263" yOff="8191" xSize="1026" ySize="1026" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">srtm/2163hillshade/z6/11/9.tiff</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1026" RasterYSize="1028" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="1026" ySize="1028" />
+      <DstRect xOff="11263" yOff="9214" xSize="1026" ySize="1028" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">srtm/2163hillshade/z6/12/0.tiff</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1027" RasterYSize="1025" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="1027" ySize="1025" />
+      <DstRect xOff="12286" yOff="0" xSize="1027" ySize="1025" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">srtm/2163hillshade/z6/12/1.tiff</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1027" RasterYSize="1027" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="1027" ySize="1027" />
+      <DstRect xOff="12286" yOff="1022" xSize="1027" ySize="1027" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">srtm/2163hillshade/z6/12/10.tiff</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1027" RasterYSize="1026" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="1027" ySize="1026" />
+      <DstRect xOff="12286" yOff="10239" xSize="1027" ySize="1026" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">srtm/2163hillshade/z6/12/11.tiff</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1027" RasterYSize="1026" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="1027" ySize="1026" />
+      <DstRect xOff="12286" yOff="11263" xSize="1027" ySize="1026" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">srtm/2163hillshade/z6/12/12.tiff</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1027" RasterYSize="1026" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="1027" ySize="1026" />
+      <DstRect xOff="12286" yOff="12287" xSize="1027" ySize="1026" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">srtm/2163hillshade/z6/12/13.tiff</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1027" RasterYSize="1026" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="1027" ySize="1026" />
+      <DstRect xOff="12286" yOff="13311" xSize="1027" ySize="1026" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">srtm/2163hillshade/z6/12/14.tiff</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1027" RasterYSize="1027" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="1027" ySize="1027" />
+      <DstRect xOff="12286" yOff="14335" xSize="1027" ySize="1027" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">srtm/2163hillshade/z6/12/15.tiff</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1027" RasterYSize="1025" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="1027" ySize="1025" />
+      <DstRect xOff="12286" yOff="15359" xSize="1027" ySize="1025" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">srtm/2163hillshade/z6/12/2.tiff</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1027" RasterYSize="1027" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="1027" ySize="1027" />
+      <DstRect xOff="12286" yOff="2046" xSize="1027" ySize="1027" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">srtm/2163hillshade/z6/12/3.tiff</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1027" RasterYSize="1027" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="1027" ySize="1027" />
+      <DstRect xOff="12286" yOff="3071" xSize="1027" ySize="1027" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">srtm/2163hillshade/z6/12/4.tiff</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1027" RasterYSize="1026" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="1027" ySize="1026" />
+      <DstRect xOff="12286" yOff="4095" xSize="1027" ySize="1026" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">srtm/2163hillshade/z6/12/5.tiff</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1027" RasterYSize="1026" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="1027" ySize="1026" />
+      <DstRect xOff="12286" yOff="5119" xSize="1027" ySize="1026" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">srtm/2163hillshade/z6/12/6.tiff</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1027" RasterYSize="1028" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="1027" ySize="1028" />
+      <DstRect xOff="12286" yOff="6142" xSize="1027" ySize="1028" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">srtm/2163hillshade/z6/12/7.tiff</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1027" RasterYSize="1026" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="1027" ySize="1026" />
+      <DstRect xOff="12286" yOff="7167" xSize="1027" ySize="1026" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">srtm/2163hillshade/z6/12/8.tiff</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1027" RasterYSize="1026" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="1027" ySize="1026" />
+      <DstRect xOff="12286" yOff="8191" xSize="1027" ySize="1026" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">srtm/2163hillshade/z6/12/9.tiff</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1027" RasterYSize="1028" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="1027" ySize="1028" />
+      <DstRect xOff="12286" yOff="9214" xSize="1027" ySize="1028" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">srtm/2163hillshade/z6/13/0.tiff</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1027" RasterYSize="1025" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="1027" ySize="1025" />
+      <DstRect xOff="13311" yOff="0" xSize="1027" ySize="1025" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">srtm/2163hillshade/z6/13/1.tiff</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1027" RasterYSize="1027" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="1027" ySize="1027" />
+      <DstRect xOff="13311" yOff="1022" xSize="1027" ySize="1027" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">srtm/2163hillshade/z6/13/10.tiff</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1027" RasterYSize="1026" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="1027" ySize="1026" />
+      <DstRect xOff="13311" yOff="10239" xSize="1027" ySize="1026" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">srtm/2163hillshade/z6/13/11.tiff</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1027" RasterYSize="1026" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="1027" ySize="1026" />
+      <DstRect xOff="13311" yOff="11263" xSize="1027" ySize="1026" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">srtm/2163hillshade/z6/13/12.tiff</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1027" RasterYSize="1026" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="1027" ySize="1026" />
+      <DstRect xOff="13311" yOff="12287" xSize="1027" ySize="1026" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">srtm/2163hillshade/z6/13/13.tiff</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1027" RasterYSize="1026" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="1027" ySize="1026" />
+      <DstRect xOff="13311" yOff="13311" xSize="1027" ySize="1026" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">srtm/2163hillshade/z6/13/14.tiff</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1027" RasterYSize="1027" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="1027" ySize="1027" />
+      <DstRect xOff="13311" yOff="14335" xSize="1027" ySize="1027" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">srtm/2163hillshade/z6/13/15.tiff</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1027" RasterYSize="1025" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="1027" ySize="1025" />
+      <DstRect xOff="13311" yOff="15359" xSize="1027" ySize="1025" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">srtm/2163hillshade/z6/13/2.tiff</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1027" RasterYSize="1027" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="1027" ySize="1027" />
+      <DstRect xOff="13311" yOff="2046" xSize="1027" ySize="1027" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">srtm/2163hillshade/z6/13/3.tiff</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1027" RasterYSize="1027" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="1027" ySize="1027" />
+      <DstRect xOff="13311" yOff="3071" xSize="1027" ySize="1027" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">srtm/2163hillshade/z6/13/4.tiff</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1027" RasterYSize="1026" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="1027" ySize="1026" />
+      <DstRect xOff="13311" yOff="4095" xSize="1027" ySize="1026" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">srtm/2163hillshade/z6/13/5.tiff</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1027" RasterYSize="1026" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="1027" ySize="1026" />
+      <DstRect xOff="13311" yOff="5119" xSize="1027" ySize="1026" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">srtm/2163hillshade/z6/13/6.tiff</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1027" RasterYSize="1028" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="1027" ySize="1028" />
+      <DstRect xOff="13311" yOff="6142" xSize="1027" ySize="1028" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">srtm/2163hillshade/z6/13/7.tiff</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1027" RasterYSize="1026" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="1027" ySize="1026" />
+      <DstRect xOff="13311" yOff="7167" xSize="1027" ySize="1026" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">srtm/2163hillshade/z6/13/8.tiff</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1027" RasterYSize="1026" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="1027" ySize="1026" />
+      <DstRect xOff="13311" yOff="8191" xSize="1027" ySize="1026" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">srtm/2163hillshade/z6/13/9.tiff</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1027" RasterYSize="1028" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="1027" ySize="1028" />
+      <DstRect xOff="13311" yOff="9214" xSize="1027" ySize="1028" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">srtm/2163hillshade/z6/14/0.tiff</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1027" RasterYSize="1025" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="1027" ySize="1025" />
+      <DstRect xOff="14335" yOff="0" xSize="1027" ySize="1025" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">srtm/2163hillshade/z6/14/1.tiff</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1027" RasterYSize="1027" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="1027" ySize="1027" />
+      <DstRect xOff="14335" yOff="1022" xSize="1027" ySize="1027" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">srtm/2163hillshade/z6/14/10.tiff</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1027" RasterYSize="1026" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="1027" ySize="1026" />
+      <DstRect xOff="14335" yOff="10239" xSize="1027" ySize="1026" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">srtm/2163hillshade/z6/14/11.tiff</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1027" RasterYSize="1026" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="1027" ySize="1026" />
+      <DstRect xOff="14335" yOff="11263" xSize="1027" ySize="1026" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">srtm/2163hillshade/z6/14/12.tiff</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1027" RasterYSize="1026" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="1027" ySize="1026" />
+      <DstRect xOff="14335" yOff="12287" xSize="1027" ySize="1026" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">srtm/2163hillshade/z6/14/13.tiff</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1027" RasterYSize="1026" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="1027" ySize="1026" />
+      <DstRect xOff="14335" yOff="13311" xSize="1027" ySize="1026" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">srtm/2163hillshade/z6/14/14.tiff</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1027" RasterYSize="1027" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="1027" ySize="1027" />
+      <DstRect xOff="14335" yOff="14335" xSize="1027" ySize="1027" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">srtm/2163hillshade/z6/14/15.tiff</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1027" RasterYSize="1025" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="1027" ySize="1025" />
+      <DstRect xOff="14335" yOff="15359" xSize="1027" ySize="1025" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">srtm/2163hillshade/z6/14/2.tiff</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1027" RasterYSize="1027" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="1027" ySize="1027" />
+      <DstRect xOff="14335" yOff="2046" xSize="1027" ySize="1027" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">srtm/2163hillshade/z6/14/3.tiff</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1027" RasterYSize="1027" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="1027" ySize="1027" />
+      <DstRect xOff="14335" yOff="3071" xSize="1027" ySize="1027" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">srtm/2163hillshade/z6/14/4.tiff</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1027" RasterYSize="1026" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="1027" ySize="1026" />
+      <DstRect xOff="14335" yOff="4095" xSize="1027" ySize="1026" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">srtm/2163hillshade/z6/14/5.tiff</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1027" RasterYSize="1026" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="1027" ySize="1026" />
+      <DstRect xOff="14335" yOff="5119" xSize="1027" ySize="1026" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">srtm/2163hillshade/z6/14/6.tiff</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1027" RasterYSize="1028" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="1027" ySize="1028" />
+      <DstRect xOff="14335" yOff="6142" xSize="1027" ySize="1028" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">srtm/2163hillshade/z6/14/7.tiff</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1027" RasterYSize="1026" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="1027" ySize="1026" />
+      <DstRect xOff="14335" yOff="7167" xSize="1027" ySize="1026" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">srtm/2163hillshade/z6/14/8.tiff</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1027" RasterYSize="1026" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="1027" ySize="1026" />
+      <DstRect xOff="14335" yOff="8191" xSize="1027" ySize="1026" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">srtm/2163hillshade/z6/14/9.tiff</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1027" RasterYSize="1028" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="1027" ySize="1028" />
+      <DstRect xOff="14335" yOff="9214" xSize="1027" ySize="1028" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">srtm/2163hillshade/z6/15/0.tiff</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1025" RasterYSize="1025" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="1025" ySize="1025" />
+      <DstRect xOff="15359" yOff="0" xSize="1025" ySize="1025" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">srtm/2163hillshade/z6/15/1.tiff</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1025" RasterYSize="1027" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="1025" ySize="1027" />
+      <DstRect xOff="15359" yOff="1022" xSize="1025" ySize="1027" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">srtm/2163hillshade/z6/15/10.tiff</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1025" RasterYSize="1026" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="1025" ySize="1026" />
+      <DstRect xOff="15359" yOff="10239" xSize="1025" ySize="1026" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">srtm/2163hillshade/z6/15/11.tiff</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1025" RasterYSize="1026" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="1025" ySize="1026" />
+      <DstRect xOff="15359" yOff="11263" xSize="1025" ySize="1026" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">srtm/2163hillshade/z6/15/12.tiff</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1025" RasterYSize="1026" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="1025" ySize="1026" />
+      <DstRect xOff="15359" yOff="12287" xSize="1025" ySize="1026" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">srtm/2163hillshade/z6/15/13.tiff</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1025" RasterYSize="1026" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="1025" ySize="1026" />
+      <DstRect xOff="15359" yOff="13311" xSize="1025" ySize="1026" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">srtm/2163hillshade/z6/15/14.tiff</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1025" RasterYSize="1027" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="1025" ySize="1027" />
+      <DstRect xOff="15359" yOff="14335" xSize="1025" ySize="1027" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">srtm/2163hillshade/z6/15/15.tiff</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1025" RasterYSize="1025" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="1025" ySize="1025" />
+      <DstRect xOff="15359" yOff="15359" xSize="1025" ySize="1025" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">srtm/2163hillshade/z6/15/2.tiff</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1025" RasterYSize="1027" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="1025" ySize="1027" />
+      <DstRect xOff="15359" yOff="2046" xSize="1025" ySize="1027" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">srtm/2163hillshade/z6/15/3.tiff</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1025" RasterYSize="1027" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="1025" ySize="1027" />
+      <DstRect xOff="15359" yOff="3071" xSize="1025" ySize="1027" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">srtm/2163hillshade/z6/15/4.tiff</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1025" RasterYSize="1026" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="1025" ySize="1026" />
+      <DstRect xOff="15359" yOff="4095" xSize="1025" ySize="1026" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">srtm/2163hillshade/z6/15/5.tiff</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1025" RasterYSize="1026" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="1025" ySize="1026" />
+      <DstRect xOff="15359" yOff="5119" xSize="1025" ySize="1026" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">srtm/2163hillshade/z6/15/6.tiff</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1025" RasterYSize="1028" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="1025" ySize="1028" />
+      <DstRect xOff="15359" yOff="6142" xSize="1025" ySize="1028" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">srtm/2163hillshade/z6/15/7.tiff</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1025" RasterYSize="1026" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="1025" ySize="1026" />
+      <DstRect xOff="15359" yOff="7167" xSize="1025" ySize="1026" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">srtm/2163hillshade/z6/15/8.tiff</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1025" RasterYSize="1026" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="1025" ySize="1026" />
+      <DstRect xOff="15359" yOff="8191" xSize="1025" ySize="1026" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">srtm/2163hillshade/z6/15/9.tiff</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1025" RasterYSize="1028" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="1025" ySize="1028" />
+      <DstRect xOff="15359" yOff="9214" xSize="1025" ySize="1028" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">srtm/2163hillshade/z6/2/0.tiff</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1026" RasterYSize="1025" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="1026" ySize="1025" />
+      <DstRect xOff="2047" yOff="0" xSize="1026" ySize="1025" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">srtm/2163hillshade/z6/2/1.tiff</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1026" RasterYSize="1027" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="1026" ySize="1027" />
+      <DstRect xOff="2047" yOff="1022" xSize="1026" ySize="1027" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">srtm/2163hillshade/z6/2/10.tiff</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1026" RasterYSize="1026" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="1026" ySize="1026" />
+      <DstRect xOff="2047" yOff="10239" xSize="1026" ySize="1026" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">srtm/2163hillshade/z6/2/11.tiff</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1026" RasterYSize="1026" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="1026" ySize="1026" />
+      <DstRect xOff="2047" yOff="11263" xSize="1026" ySize="1026" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">srtm/2163hillshade/z6/2/12.tiff</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1026" RasterYSize="1026" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="1026" ySize="1026" />
+      <DstRect xOff="2047" yOff="12287" xSize="1026" ySize="1026" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">srtm/2163hillshade/z6/2/13.tiff</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1026" RasterYSize="1026" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="1026" ySize="1026" />
+      <DstRect xOff="2047" yOff="13311" xSize="1026" ySize="1026" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">srtm/2163hillshade/z6/2/14.tiff</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1026" RasterYSize="1027" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="1026" ySize="1027" />
+      <DstRect xOff="2047" yOff="14335" xSize="1026" ySize="1027" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">srtm/2163hillshade/z6/2/15.tiff</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1026" RasterYSize="1025" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="1026" ySize="1025" />
+      <DstRect xOff="2047" yOff="15359" xSize="1026" ySize="1025" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">srtm/2163hillshade/z6/2/2.tiff</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1026" RasterYSize="1027" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="1026" ySize="1027" />
+      <DstRect xOff="2047" yOff="2046" xSize="1026" ySize="1027" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">srtm/2163hillshade/z6/2/3.tiff</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1026" RasterYSize="1027" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="1026" ySize="1027" />
+      <DstRect xOff="2047" yOff="3071" xSize="1026" ySize="1027" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">srtm/2163hillshade/z6/2/4.tiff</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1026" RasterYSize="1026" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="1026" ySize="1026" />
+      <DstRect xOff="2047" yOff="4095" xSize="1026" ySize="1026" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">srtm/2163hillshade/z6/2/5.tiff</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1026" RasterYSize="1026" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="1026" ySize="1026" />
+      <DstRect xOff="2047" yOff="5119" xSize="1026" ySize="1026" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">srtm/2163hillshade/z6/2/6.tiff</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1026" RasterYSize="1028" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="1026" ySize="1028" />
+      <DstRect xOff="2047" yOff="6142" xSize="1026" ySize="1028" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">srtm/2163hillshade/z6/2/7.tiff</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1026" RasterYSize="1026" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="1026" ySize="1026" />
+      <DstRect xOff="2047" yOff="7167" xSize="1026" ySize="1026" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">srtm/2163hillshade/z6/2/8.tiff</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1026" RasterYSize="1026" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="1026" ySize="1026" />
+      <DstRect xOff="2047" yOff="8191" xSize="1026" ySize="1026" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">srtm/2163hillshade/z6/2/9.tiff</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1026" RasterYSize="1028" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="1026" ySize="1028" />
+      <DstRect xOff="2047" yOff="9214" xSize="1026" ySize="1028" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">srtm/2163hillshade/z6/3/0.tiff</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1026" RasterYSize="1025" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="1026" ySize="1025" />
+      <DstRect xOff="3071" yOff="0" xSize="1026" ySize="1025" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">srtm/2163hillshade/z6/3/1.tiff</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1026" RasterYSize="1027" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="1026" ySize="1027" />
+      <DstRect xOff="3071" yOff="1022" xSize="1026" ySize="1027" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">srtm/2163hillshade/z6/3/10.tiff</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1026" RasterYSize="1026" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="1026" ySize="1026" />
+      <DstRect xOff="3071" yOff="10239" xSize="1026" ySize="1026" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">srtm/2163hillshade/z6/3/11.tiff</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1026" RasterYSize="1026" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="1026" ySize="1026" />
+      <DstRect xOff="3071" yOff="11263" xSize="1026" ySize="1026" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">srtm/2163hillshade/z6/3/12.tiff</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1026" RasterYSize="1026" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="1026" ySize="1026" />
+      <DstRect xOff="3071" yOff="12287" xSize="1026" ySize="1026" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">srtm/2163hillshade/z6/3/13.tiff</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1026" RasterYSize="1026" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="1026" ySize="1026" />
+      <DstRect xOff="3071" yOff="13311" xSize="1026" ySize="1026" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">srtm/2163hillshade/z6/3/14.tiff</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1026" RasterYSize="1027" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="1026" ySize="1027" />
+      <DstRect xOff="3071" yOff="14335" xSize="1026" ySize="1027" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">srtm/2163hillshade/z6/3/15.tiff</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1026" RasterYSize="1025" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="1026" ySize="1025" />
+      <DstRect xOff="3071" yOff="15359" xSize="1026" ySize="1025" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">srtm/2163hillshade/z6/3/2.tiff</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1026" RasterYSize="1027" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="1026" ySize="1027" />
+      <DstRect xOff="3071" yOff="2046" xSize="1026" ySize="1027" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">srtm/2163hillshade/z6/3/3.tiff</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1026" RasterYSize="1027" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="1026" ySize="1027" />
+      <DstRect xOff="3071" yOff="3071" xSize="1026" ySize="1027" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">srtm/2163hillshade/z6/3/4.tiff</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1026" RasterYSize="1026" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="1026" ySize="1026" />
+      <DstRect xOff="3071" yOff="4095" xSize="1026" ySize="1026" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">srtm/2163hillshade/z6/3/5.tiff</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1026" RasterYSize="1026" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="1026" ySize="1026" />
+      <DstRect xOff="3071" yOff="5119" xSize="1026" ySize="1026" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">srtm/2163hillshade/z6/3/6.tiff</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1026" RasterYSize="1028" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="1026" ySize="1028" />
+      <DstRect xOff="3071" yOff="6142" xSize="1026" ySize="1028" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">srtm/2163hillshade/z6/3/7.tiff</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1026" RasterYSize="1026" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="1026" ySize="1026" />
+      <DstRect xOff="3071" yOff="7167" xSize="1026" ySize="1026" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">srtm/2163hillshade/z6/3/8.tiff</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1026" RasterYSize="1026" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="1026" ySize="1026" />
+      <DstRect xOff="3071" yOff="8191" xSize="1026" ySize="1026" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">srtm/2163hillshade/z6/3/9.tiff</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1026" RasterYSize="1028" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="1026" ySize="1028" />
+      <DstRect xOff="3071" yOff="9214" xSize="1026" ySize="1028" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">srtm/2163hillshade/z6/4/0.tiff</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1026" RasterYSize="1025" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="1026" ySize="1025" />
+      <DstRect xOff="4095" yOff="0" xSize="1026" ySize="1025" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">srtm/2163hillshade/z6/4/1.tiff</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1026" RasterYSize="1027" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="1026" ySize="1027" />
+      <DstRect xOff="4095" yOff="1022" xSize="1026" ySize="1027" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">srtm/2163hillshade/z6/4/10.tiff</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1026" RasterYSize="1026" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="1026" ySize="1026" />
+      <DstRect xOff="4095" yOff="10239" xSize="1026" ySize="1026" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">srtm/2163hillshade/z6/4/11.tiff</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1026" RasterYSize="1026" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="1026" ySize="1026" />
+      <DstRect xOff="4095" yOff="11263" xSize="1026" ySize="1026" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">srtm/2163hillshade/z6/4/12.tiff</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1026" RasterYSize="1026" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="1026" ySize="1026" />
+      <DstRect xOff="4095" yOff="12287" xSize="1026" ySize="1026" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">srtm/2163hillshade/z6/4/13.tiff</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1026" RasterYSize="1026" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="1026" ySize="1026" />
+      <DstRect xOff="4095" yOff="13311" xSize="1026" ySize="1026" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">srtm/2163hillshade/z6/4/14.tiff</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1026" RasterYSize="1027" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="1026" ySize="1027" />
+      <DstRect xOff="4095" yOff="14335" xSize="1026" ySize="1027" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">srtm/2163hillshade/z6/4/15.tiff</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1026" RasterYSize="1025" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="1026" ySize="1025" />
+      <DstRect xOff="4095" yOff="15359" xSize="1026" ySize="1025" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">srtm/2163hillshade/z6/4/2.tiff</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1026" RasterYSize="1027" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="1026" ySize="1027" />
+      <DstRect xOff="4095" yOff="2046" xSize="1026" ySize="1027" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">srtm/2163hillshade/z6/4/3.tiff</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1026" RasterYSize="1027" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="1026" ySize="1027" />
+      <DstRect xOff="4095" yOff="3071" xSize="1026" ySize="1027" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">srtm/2163hillshade/z6/4/4.tiff</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1026" RasterYSize="1026" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="1026" ySize="1026" />
+      <DstRect xOff="4095" yOff="4095" xSize="1026" ySize="1026" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">srtm/2163hillshade/z6/4/5.tiff</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1026" RasterYSize="1026" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="1026" ySize="1026" />
+      <DstRect xOff="4095" yOff="5119" xSize="1026" ySize="1026" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">srtm/2163hillshade/z6/4/6.tiff</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1026" RasterYSize="1028" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="1026" ySize="1028" />
+      <DstRect xOff="4095" yOff="6142" xSize="1026" ySize="1028" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">srtm/2163hillshade/z6/4/7.tiff</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1026" RasterYSize="1026" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="1026" ySize="1026" />
+      <DstRect xOff="4095" yOff="7167" xSize="1026" ySize="1026" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">srtm/2163hillshade/z6/4/8.tiff</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1026" RasterYSize="1026" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="1026" ySize="1026" />
+      <DstRect xOff="4095" yOff="8191" xSize="1026" ySize="1026" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">srtm/2163hillshade/z6/4/9.tiff</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1026" RasterYSize="1028" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="1026" ySize="1028" />
+      <DstRect xOff="4095" yOff="9214" xSize="1026" ySize="1028" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">srtm/2163hillshade/z6/5/0.tiff</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1026" RasterYSize="1025" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="1026" ySize="1025" />
+      <DstRect xOff="5119" yOff="0" xSize="1026" ySize="1025" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">srtm/2163hillshade/z6/5/1.tiff</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1026" RasterYSize="1027" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="1026" ySize="1027" />
+      <DstRect xOff="5119" yOff="1022" xSize="1026" ySize="1027" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">srtm/2163hillshade/z6/5/10.tiff</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1026" RasterYSize="1026" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="1026" ySize="1026" />
+      <DstRect xOff="5119" yOff="10239" xSize="1026" ySize="1026" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">srtm/2163hillshade/z6/5/11.tiff</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1026" RasterYSize="1026" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="1026" ySize="1026" />
+      <DstRect xOff="5119" yOff="11263" xSize="1026" ySize="1026" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">srtm/2163hillshade/z6/5/12.tiff</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1026" RasterYSize="1026" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="1026" ySize="1026" />
+      <DstRect xOff="5119" yOff="12287" xSize="1026" ySize="1026" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">srtm/2163hillshade/z6/5/13.tiff</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1026" RasterYSize="1026" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="1026" ySize="1026" />
+      <DstRect xOff="5119" yOff="13311" xSize="1026" ySize="1026" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">srtm/2163hillshade/z6/5/14.tiff</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1026" RasterYSize="1027" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="1026" ySize="1027" />
+      <DstRect xOff="5119" yOff="14335" xSize="1026" ySize="1027" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">srtm/2163hillshade/z6/5/15.tiff</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1026" RasterYSize="1025" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="1026" ySize="1025" />
+      <DstRect xOff="5119" yOff="15359" xSize="1026" ySize="1025" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">srtm/2163hillshade/z6/5/2.tiff</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1026" RasterYSize="1027" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="1026" ySize="1027" />
+      <DstRect xOff="5119" yOff="2046" xSize="1026" ySize="1027" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">srtm/2163hillshade/z6/5/3.tiff</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1026" RasterYSize="1027" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="1026" ySize="1027" />
+      <DstRect xOff="5119" yOff="3071" xSize="1026" ySize="1027" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">srtm/2163hillshade/z6/5/4.tiff</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1026" RasterYSize="1026" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="1026" ySize="1026" />
+      <DstRect xOff="5119" yOff="4095" xSize="1026" ySize="1026" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">srtm/2163hillshade/z6/5/5.tiff</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1026" RasterYSize="1026" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="1026" ySize="1026" />
+      <DstRect xOff="5119" yOff="5119" xSize="1026" ySize="1026" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">srtm/2163hillshade/z6/5/6.tiff</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1026" RasterYSize="1028" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="1026" ySize="1028" />
+      <DstRect xOff="5119" yOff="6142" xSize="1026" ySize="1028" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">srtm/2163hillshade/z6/5/7.tiff</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1026" RasterYSize="1026" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="1026" ySize="1026" />
+      <DstRect xOff="5119" yOff="7167" xSize="1026" ySize="1026" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">srtm/2163hillshade/z6/5/8.tiff</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1026" RasterYSize="1026" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="1026" ySize="1026" />
+      <DstRect xOff="5119" yOff="8191" xSize="1026" ySize="1026" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">srtm/2163hillshade/z6/5/9.tiff</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1026" RasterYSize="1028" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="1026" ySize="1028" />
+      <DstRect xOff="5119" yOff="9214" xSize="1026" ySize="1028" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">srtm/2163hillshade/z6/6/0.tiff</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1028" RasterYSize="1025" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="1028" ySize="1025" />
+      <DstRect xOff="6142" yOff="0" xSize="1028" ySize="1025" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">srtm/2163hillshade/z6/6/1.tiff</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1028" RasterYSize="1027" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="1028" ySize="1027" />
+      <DstRect xOff="6142" yOff="1022" xSize="1028" ySize="1027" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">srtm/2163hillshade/z6/6/10.tiff</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1028" RasterYSize="1026" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="1028" ySize="1026" />
+      <DstRect xOff="6142" yOff="10239" xSize="1028" ySize="1026" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">srtm/2163hillshade/z6/6/11.tiff</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1028" RasterYSize="1026" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="1028" ySize="1026" />
+      <DstRect xOff="6142" yOff="11263" xSize="1028" ySize="1026" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">srtm/2163hillshade/z6/6/12.tiff</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1028" RasterYSize="1026" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="1028" ySize="1026" />
+      <DstRect xOff="6142" yOff="12287" xSize="1028" ySize="1026" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">srtm/2163hillshade/z6/6/13.tiff</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1028" RasterYSize="1026" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="1028" ySize="1026" />
+      <DstRect xOff="6142" yOff="13311" xSize="1028" ySize="1026" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">srtm/2163hillshade/z6/6/14.tiff</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1028" RasterYSize="1027" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="1028" ySize="1027" />
+      <DstRect xOff="6142" yOff="14335" xSize="1028" ySize="1027" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">srtm/2163hillshade/z6/6/15.tiff</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1028" RasterYSize="1025" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="1028" ySize="1025" />
+      <DstRect xOff="6142" yOff="15359" xSize="1028" ySize="1025" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">srtm/2163hillshade/z6/6/2.tiff</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1028" RasterYSize="1027" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="1028" ySize="1027" />
+      <DstRect xOff="6142" yOff="2046" xSize="1028" ySize="1027" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">srtm/2163hillshade/z6/6/3.tiff</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1028" RasterYSize="1027" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="1028" ySize="1027" />
+      <DstRect xOff="6142" yOff="3071" xSize="1028" ySize="1027" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">srtm/2163hillshade/z6/6/4.tiff</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1028" RasterYSize="1026" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="1028" ySize="1026" />
+      <DstRect xOff="6142" yOff="4095" xSize="1028" ySize="1026" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">srtm/2163hillshade/z6/6/5.tiff</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1028" RasterYSize="1026" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="1028" ySize="1026" />
+      <DstRect xOff="6142" yOff="5119" xSize="1028" ySize="1026" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">srtm/2163hillshade/z6/6/6.tiff</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1028" RasterYSize="1028" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="1028" ySize="1028" />
+      <DstRect xOff="6142" yOff="6142" xSize="1028" ySize="1028" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">srtm/2163hillshade/z6/6/7.tiff</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1028" RasterYSize="1026" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="1028" ySize="1026" />
+      <DstRect xOff="6142" yOff="7167" xSize="1028" ySize="1026" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">srtm/2163hillshade/z6/6/8.tiff</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1028" RasterYSize="1026" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="1028" ySize="1026" />
+      <DstRect xOff="6142" yOff="8191" xSize="1028" ySize="1026" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">srtm/2163hillshade/z6/6/9.tiff</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1028" RasterYSize="1028" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="1028" ySize="1028" />
+      <DstRect xOff="6142" yOff="9214" xSize="1028" ySize="1028" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">srtm/2163hillshade/z6/7/0.tiff</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1026" RasterYSize="1025" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="1026" ySize="1025" />
+      <DstRect xOff="7167" yOff="0" xSize="1026" ySize="1025" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">srtm/2163hillshade/z6/7/1.tiff</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1026" RasterYSize="1027" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="1026" ySize="1027" />
+      <DstRect xOff="7167" yOff="1022" xSize="1026" ySize="1027" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">srtm/2163hillshade/z6/7/10.tiff</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1026" RasterYSize="1026" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="1026" ySize="1026" />
+      <DstRect xOff="7167" yOff="10239" xSize="1026" ySize="1026" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">srtm/2163hillshade/z6/7/11.tiff</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1026" RasterYSize="1026" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="1026" ySize="1026" />
+      <DstRect xOff="7167" yOff="11263" xSize="1026" ySize="1026" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">srtm/2163hillshade/z6/7/12.tiff</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1026" RasterYSize="1026" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="1026" ySize="1026" />
+      <DstRect xOff="7167" yOff="12287" xSize="1026" ySize="1026" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">srtm/2163hillshade/z6/7/13.tiff</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1026" RasterYSize="1026" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="1026" ySize="1026" />
+      <DstRect xOff="7167" yOff="13311" xSize="1026" ySize="1026" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">srtm/2163hillshade/z6/7/14.tiff</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1026" RasterYSize="1027" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="1026" ySize="1027" />
+      <DstRect xOff="7167" yOff="14335" xSize="1026" ySize="1027" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">srtm/2163hillshade/z6/7/15.tiff</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1026" RasterYSize="1025" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="1026" ySize="1025" />
+      <DstRect xOff="7167" yOff="15359" xSize="1026" ySize="1025" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">srtm/2163hillshade/z6/7/2.tiff</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1026" RasterYSize="1027" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="1026" ySize="1027" />
+      <DstRect xOff="7167" yOff="2046" xSize="1026" ySize="1027" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">srtm/2163hillshade/z6/7/3.tiff</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1026" RasterYSize="1027" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="1026" ySize="1027" />
+      <DstRect xOff="7167" yOff="3071" xSize="1026" ySize="1027" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">srtm/2163hillshade/z6/7/4.tiff</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1026" RasterYSize="1026" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="1026" ySize="1026" />
+      <DstRect xOff="7167" yOff="4095" xSize="1026" ySize="1026" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">srtm/2163hillshade/z6/7/5.tiff</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1026" RasterYSize="1026" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="1026" ySize="1026" />
+      <DstRect xOff="7167" yOff="5119" xSize="1026" ySize="1026" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">srtm/2163hillshade/z6/7/6.tiff</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1026" RasterYSize="1028" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="1026" ySize="1028" />
+      <DstRect xOff="7167" yOff="6142" xSize="1026" ySize="1028" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">srtm/2163hillshade/z6/7/7.tiff</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1026" RasterYSize="1026" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="1026" ySize="1026" />
+      <DstRect xOff="7167" yOff="7167" xSize="1026" ySize="1026" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">srtm/2163hillshade/z6/7/8.tiff</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1026" RasterYSize="1026" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="1026" ySize="1026" />
+      <DstRect xOff="7167" yOff="8191" xSize="1026" ySize="1026" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">srtm/2163hillshade/z6/7/9.tiff</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1026" RasterYSize="1028" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="1026" ySize="1028" />
+      <DstRect xOff="7167" yOff="9214" xSize="1026" ySize="1028" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">srtm/2163hillshade/z6/8/0.tiff</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1026" RasterYSize="1025" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="1026" ySize="1025" />
+      <DstRect xOff="8191" yOff="0" xSize="1026" ySize="1025" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">srtm/2163hillshade/z6/8/1.tiff</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1026" RasterYSize="1027" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="1026" ySize="1027" />
+      <DstRect xOff="8191" yOff="1022" xSize="1026" ySize="1027" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">srtm/2163hillshade/z6/8/10.tiff</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1026" RasterYSize="1026" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="1026" ySize="1026" />
+      <DstRect xOff="8191" yOff="10239" xSize="1026" ySize="1026" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">srtm/2163hillshade/z6/8/11.tiff</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1026" RasterYSize="1026" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="1026" ySize="1026" />
+      <DstRect xOff="8191" yOff="11263" xSize="1026" ySize="1026" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">srtm/2163hillshade/z6/8/12.tiff</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1026" RasterYSize="1026" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="1026" ySize="1026" />
+      <DstRect xOff="8191" yOff="12287" xSize="1026" ySize="1026" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">srtm/2163hillshade/z6/8/13.tiff</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1026" RasterYSize="1026" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="1026" ySize="1026" />
+      <DstRect xOff="8191" yOff="13311" xSize="1026" ySize="1026" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">srtm/2163hillshade/z6/8/14.tiff</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1026" RasterYSize="1027" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="1026" ySize="1027" />
+      <DstRect xOff="8191" yOff="14335" xSize="1026" ySize="1027" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">srtm/2163hillshade/z6/8/15.tiff</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1026" RasterYSize="1025" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="1026" ySize="1025" />
+      <DstRect xOff="8191" yOff="15359" xSize="1026" ySize="1025" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">srtm/2163hillshade/z6/8/2.tiff</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1026" RasterYSize="1027" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="1026" ySize="1027" />
+      <DstRect xOff="8191" yOff="2046" xSize="1026" ySize="1027" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">srtm/2163hillshade/z6/8/3.tiff</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1026" RasterYSize="1027" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="1026" ySize="1027" />
+      <DstRect xOff="8191" yOff="3071" xSize="1026" ySize="1027" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">srtm/2163hillshade/z6/8/4.tiff</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1026" RasterYSize="1026" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="1026" ySize="1026" />
+      <DstRect xOff="8191" yOff="4095" xSize="1026" ySize="1026" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">srtm/2163hillshade/z6/8/5.tiff</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1026" RasterYSize="1026" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="1026" ySize="1026" />
+      <DstRect xOff="8191" yOff="5119" xSize="1026" ySize="1026" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">srtm/2163hillshade/z6/8/6.tiff</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1026" RasterYSize="1028" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="1026" ySize="1028" />
+      <DstRect xOff="8191" yOff="6142" xSize="1026" ySize="1028" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">srtm/2163hillshade/z6/8/7.tiff</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1026" RasterYSize="1026" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="1026" ySize="1026" />
+      <DstRect xOff="8191" yOff="7167" xSize="1026" ySize="1026" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">srtm/2163hillshade/z6/8/8.tiff</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1026" RasterYSize="1026" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="1026" ySize="1026" />
+      <DstRect xOff="8191" yOff="8191" xSize="1026" ySize="1026" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">srtm/2163hillshade/z6/8/9.tiff</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1026" RasterYSize="1028" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="1026" ySize="1028" />
+      <DstRect xOff="8191" yOff="9214" xSize="1026" ySize="1028" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">srtm/2163hillshade/z6/9/0.tiff</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1028" RasterYSize="1025" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="1028" ySize="1025" />
+      <DstRect xOff="9214" yOff="0" xSize="1028" ySize="1025" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">srtm/2163hillshade/z6/9/1.tiff</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1028" RasterYSize="1027" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="1028" ySize="1027" />
+      <DstRect xOff="9214" yOff="1022" xSize="1028" ySize="1027" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">srtm/2163hillshade/z6/9/10.tiff</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1028" RasterYSize="1026" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="1028" ySize="1026" />
+      <DstRect xOff="9214" yOff="10239" xSize="1028" ySize="1026" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">srtm/2163hillshade/z6/9/11.tiff</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1028" RasterYSize="1026" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="1028" ySize="1026" />
+      <DstRect xOff="9214" yOff="11263" xSize="1028" ySize="1026" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">srtm/2163hillshade/z6/9/12.tiff</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1028" RasterYSize="1026" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="1028" ySize="1026" />
+      <DstRect xOff="9214" yOff="12287" xSize="1028" ySize="1026" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">srtm/2163hillshade/z6/9/13.tiff</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1028" RasterYSize="1026" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="1028" ySize="1026" />
+      <DstRect xOff="9214" yOff="13311" xSize="1028" ySize="1026" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">srtm/2163hillshade/z6/9/14.tiff</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1028" RasterYSize="1027" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="1028" ySize="1027" />
+      <DstRect xOff="9214" yOff="14335" xSize="1028" ySize="1027" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">srtm/2163hillshade/z6/9/15.tiff</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1028" RasterYSize="1025" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="1028" ySize="1025" />
+      <DstRect xOff="9214" yOff="15359" xSize="1028" ySize="1025" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">srtm/2163hillshade/z6/9/2.tiff</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1028" RasterYSize="1027" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="1028" ySize="1027" />
+      <DstRect xOff="9214" yOff="2046" xSize="1028" ySize="1027" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">srtm/2163hillshade/z6/9/3.tiff</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1028" RasterYSize="1027" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="1028" ySize="1027" />
+      <DstRect xOff="9214" yOff="3071" xSize="1028" ySize="1027" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">srtm/2163hillshade/z6/9/4.tiff</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1028" RasterYSize="1026" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="1028" ySize="1026" />
+      <DstRect xOff="9214" yOff="4095" xSize="1028" ySize="1026" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">srtm/2163hillshade/z6/9/5.tiff</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1028" RasterYSize="1026" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="1028" ySize="1026" />
+      <DstRect xOff="9214" yOff="5119" xSize="1028" ySize="1026" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">srtm/2163hillshade/z6/9/6.tiff</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1028" RasterYSize="1028" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="1028" ySize="1028" />
+      <DstRect xOff="9214" yOff="6142" xSize="1028" ySize="1028" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">srtm/2163hillshade/z6/9/7.tiff</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1028" RasterYSize="1026" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="1028" ySize="1026" />
+      <DstRect xOff="9214" yOff="7167" xSize="1028" ySize="1026" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">srtm/2163hillshade/z6/9/8.tiff</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1028" RasterYSize="1026" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="1028" ySize="1026" />
+      <DstRect xOff="9214" yOff="8191" xSize="1028" ySize="1026" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">srtm/2163hillshade/z6/9/9.tiff</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1028" RasterYSize="1028" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="1028" ySize="1028" />
+      <DstRect xOff="9214" yOff="9214" xSize="1028" ySize="1028" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+  </VRTRasterBand>
+</VRTDataset>

@@ -20,7 +20,22 @@
     }
   },
   "/richmond-terrain": {
-    "source": "mapnik://./richmond-terrain.xml"
+    "source": {
+      "protocol": "blend:",
+      "query": {
+        "layers": [
+          {
+            "source": "mapnik://./richmond-terrain.xml",
+            "comp-op": "hard-light"
+          },
+          {
+            "source": "mapnik://./richmond-terrain.xml",
+            "comp-op": "hard-light"
+          }
+        ],
+        "format": "png8"
+      }
+    }
   },
   "/richmond-white": {
     "source": {
@@ -29,6 +44,10 @@
         "layers": [
           {
             "source": "solid:#fff"
+          },
+          {
+            "source": "mapnik://./richmond-terrain.xml",
+            "comp-op": "hard-light"
           },
           {
             "source": "mapnik://./richmond-terrain.xml",
