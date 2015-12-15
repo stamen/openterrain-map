@@ -11,3 +11,9 @@
     stop(181, transparent)
     stop(255, white);
 }
+.hillshade_positron_stacked {
+  raster-colorizer-stops:
+    stop(0, black)
+    stop(181, gray)
+    stop(255, white);
+}
